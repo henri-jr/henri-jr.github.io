@@ -17,6 +17,19 @@
         a { color: #4da6ff; text-decoration: none; }
         a:hover { text-decoration: underline; }
         h1 { color: #38ef7d; }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #333;
+        }
     </style>
 </head>
 <body>
@@ -26,7 +39,22 @@
     
     <main>
         <h1>Mon Premier Article</h1>
-        <p>Bienvenue sur mon premier article! Ici, je vais partager mes projets, mes idées et mon parcours en informatique à OCU.</p>
+        <p>My friends call me Casper or Modo, I love listening to music, playing video games, and sleeping.</p>
+        
+        <p>
+            <a href="https://music.apple.com/profile/henri_jr" target="_blank" rel="noopener">Apple music profile</a><br>
+            <a href="https://snapchat.com/t/WL2upjsz" target="_blank" rel="noopener">Snapchat profile</a><br>
+            <a href="https://www.instagram.com/henri_jr_?igsi=MTA3YnhubDNqcGFnNg%3D%3D&utm_source=qr" target="_blank" rel="noopener">Instagram profile</a>
+        </p>
+
+        <h2>Favorites</h2>
+        <div class="gallery">
+            <img src="images/real-madrid.jpg" alt="Real Madrid">
+            <img src="images/arsenal.jpg" alt="Arsenal FC">
+            <img src="images/tiakola.jpg" alt="Tiakola">
+            <img src="images/guy2bezbar.jpg" alt="Guy2Bezbar">
+            <img src="images/stromae.jpg" alt="Stromae">
+        </div>
     </main>
 </body>
 </html>
