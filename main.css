@@ -3,14 +3,14 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   margin: 0;
   padding: 0;
-  background-color: #ededed;
-  color: #1a0203;
+  background-color: #0f172a; /* Dark slate background */
+  color: #f1f5f9;            /* Soft off-white text */
   line-height: 1.6;
 }
 
 /* Header Banner */
 header {
-  background-color: #ede2d3;
+  background-color: #1e293b; /* Darker slate header */
   text-align: center;
   padding: 2.5rem 1rem 1.5rem 1rem;
 }
@@ -19,7 +19,7 @@ header h1 {
   margin: 0 0 0.5rem 0;
   font-size: 2.2rem;
   font-weight: bold;
-  color: #3b0507;
+  color: #f8fafc;            /* Bright white title */
 }
 
 /* Navigation Links */
@@ -29,7 +29,7 @@ nav {
 
 nav a {
   margin: 0 0.4rem;
-  color: #e5a968;
+  color: #f59e0b;            /* Warm gold links */
   text-decoration: none;
   font-size: 1.1rem;
 }
@@ -48,12 +48,12 @@ main {
 
 main h2 {
   font-size: 1.8rem;
-  color: #2b0305;
+  color: #fb923c;            /* Warm terracotta/orange section heading */
   margin-top: 0;
 }
 
 main a {
-  color: #a33822;
+  color: #38bdf8;            /* Bright blue content links */
   text-decoration: underline;
 }
 
