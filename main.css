@@ -1,1 +1,66 @@
+/* Base styles */
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ededed;
+  color: #1a0203;
+  line-height: 1.6;
+}
 
+/* Header Banner */
+header {
+  background-color: #ede2d3;
+  text-align: center;
+  padding: 2.5rem 1rem 1.5rem 1rem;
+}
+
+header h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #3b0507;
+}
+
+/* Navigation Links */
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  margin: 0 0.4rem;
+  color: #e5a968;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content Area */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  text-align: left;
+}
+
+main h2 {
+  font-size: 1.8rem;
+  color: #2b0305;
+  margin-top: 0;
+}
+
+main a {
+  color: #a33822;
+  text-decoration: underline;
+}
+
+/* Centered Content / Images */
+main img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem auto;
+}
