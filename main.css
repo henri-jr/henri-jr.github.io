@@ -64,3 +64,15 @@ main img {
   height: auto;
   margin: 1.5rem auto;
 }
+
+/* Centered Footer & Copyright Styling */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+}
+
+footer a {
+  color: #38bdf8;
+  text-decoration: underline;
+}
