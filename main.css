@@ -52,6 +52,10 @@ main h2 {
   margin-top: 0;
 }
 
+main canvas {
+  width: 100%;
+  
+}
 main a {
   color: #38bdf8;            /* Bright blue content links */
   text-decoration: underline;
