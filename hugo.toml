@@ -1,0 +1,8 @@
+
+baseURL = "https://henri-jr.github.io/"
+languageCode = "en-us"
+title = "Vie de Henri-Jr"
+enableRobotsTXT = true
+
+[markup.goldmark.renderer]
+unsafe = true
